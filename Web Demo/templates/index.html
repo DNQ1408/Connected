@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include 'meta-data.html' %}
+</head>
+
+<body>
+  {% include 'header.html' %}
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-sm-12" style=" padding-bottom: 12px;" id="input-wrap">
+        {% include 'getForm.html' %}
+        {% include 'upload_file.html' %}
+      </div>
+
+      <div class="" id="loading">
+        <div class="lds-spinner pad-top-60" style="padding-left: 16%">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      {% include 'data.html' %}
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<div class="sticky justify-content-center d-flex mr-auto ml-auto" style="">
+  <div class="file-upload">
+    <div class="image-upload-wrap">
+      <input id="myFile" class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+      <div class="drag-text">
+        <p style="color:#9b9b9b!important">Add a file</p>
+      </div>
+    </div>
+    <div class="file-upload-content">
+      <img class="file-upload-image" src="#" alt="your image" />
+      <div class="image-title-wrap">
+        <button type="button" onclick="removeButton()" class="font-apple remove-image blue"
+          style="border-radius: 100px; margin-right: 3%; font-size: 0.7rem; margin-top: 3%">
+          Remove
+        </button>
+        <input method="POST" type="button" onclick="submit()" href="#" class="font-apple submit-btn" value="Submit"
+          style="border-radius: 100px; margin-left: 3%; font-size: 0.7rem; margin-top: 3%">
+        </input>
+      </div>
+    </div>
+  </div>
+</div>
